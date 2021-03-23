@@ -1,0 +1,37 @@
+.map::after {
+  content: ".";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url("../images/contact-details-map.png") no-repeat center center;
+  opacity: 0.11;
+}
+
+i {
+  font-size: 28px;
+}
+
+ul i {
+  font-size: 20px;
+  color: #797979;
+  margin-right: 10px;
+}
+
+.map {
+  position: relative;
+}
+.slider header .far {
+  font-size: 3rem;
+}
+.slider .articles p {
+  font-size: 1.5rem;
+}
+.slider .articles ol i {
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */

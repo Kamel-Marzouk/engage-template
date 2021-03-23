@@ -1,0 +1,30 @@
+
+@import 'partail/placeholder';
+@import 'partail/variables';
+@import 'partail/global';
+
+ul i{
+    font-size: 20px;
+    color: $gray-color;
+    margin-right: 10px;
+}
+
+.map{
+    position: relative;
+&::after{
+      @extend %world;
+} }
+.slider{
+    header .far{
+        font-size: 3rem;
+    }
+    .articles{
+    p{
+        font-size: 1.5rem;
+    }
+    ol i{
+        border: 1px solid $white-color;
+        border-radius: 50%;
+        font-size: 1rem;
+    }} 
+}
